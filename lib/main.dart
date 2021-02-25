@@ -35,11 +35,12 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-        // mainAxisAlignment: MainAxisAlignment.center,
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         // mainAxisAlignment: MainAxisAlignment.start,
+        // mainAxisAlignment: MainAxisAlignment.center,
         // mainAxisAlignment: MainAxisAlignment.end,
+        // mainAxisAlignment: MainAxisAlignment.spaceAround,
         // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Container(
@@ -61,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
         ],
-      )
+      ),
     );
   }
 }
